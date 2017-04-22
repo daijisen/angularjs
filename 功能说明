@@ -1,0 +1,11 @@
+1.数据从控制器读取
+2.实现文本域的数据双向绑定，通过ng-model
+3.导航栏通过ng-repeat实现循环输出
+4.粉丝通过orderby实现按照ID排序
+5.实现外部链接
+.config(['$routeProvider', function($provider1){
+                $provider1
+                        .when('/a',{templateUrl:'view/aa.html'})
+                        .when('/b',{templateUrl:'view/bb.html'});
+            }]);
+6.隐藏元素，通过ng-hide的返回值为true实现
